@@ -6,4 +6,4 @@ log_location             STDOUT
 node_name                "jason"
 client_key               "#{current_dir}/jason.pem"
 chef_server_url          "https://jsmisek2.mylabserver.com/organizations/linuxacademy"
-cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_path 		 ["~/chef-repo/cookbooks"]
